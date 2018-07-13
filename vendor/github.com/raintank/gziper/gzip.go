@@ -135,7 +135,7 @@ func (grw *gzipResponseWriter) close() {
 	}
 	grw.w.Close()
 
-	if poolWriter := grw.w.(*gzip.Writer); poolWriter != nil {
+	if poolWriter, ok := grw.w.(*gzip.Writer); ok {
 		writerPool.Put(poolWriter)
 	}
 
