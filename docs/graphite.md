@@ -47,7 +47,9 @@ Here are the currently included functions:
 | movingAverage(seriesLists, windowSize) seriesList     |             | Unstable   |
 | perSecond(seriesLists) seriesList                     |             | Stable     |
 | rangeOfSeries(seriesList) series                      |             | Stable     |
-| scale(seriesList, num) series                         |             | Stable     |
+| removeAbovePercentile(seriesList, n) seriesList       |             | Stable     |
+| removeBelowPercentile(seriesList, n) seriesList       |             | Stable     |
+| scale(seriesLists, num) series                        |             | Stable     |
 | scaleToSeconds(seriesList, seconds) series            |             | Stable     |
 | stddevSeries(seriesList) series                       |             | Stable     |
 | sumSeries(seriesLists) series                         | sum         | Stable     |
