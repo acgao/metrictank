@@ -60,7 +60,9 @@ Here are the currently included functions:
 | nonNegatievDerivative(seriesList, maxValue) seriesList         |             | Stable     |
 | perSecond(seriesLists) seriesList                              |             | Stable     |
 | rangeOfSeries(seriesList) series                               |             | Stable     |
+| removeAbovePercentile(seriesList, n) seriesList                |             | Stable     |
 | removeAboveValue(seriesList, n) seriesList                     |             | Stable     |
+| removeBelowPercentile(seriesList, n) seriesList                |             | Stable     |
 | removeBelowValue(seriesList, n) seriesList                     |             | Stable     |
 | scale(seriesList, num) series                                  |             | Stable     |
 | scaleToSeconds(seriesList, seconds) seriesList                 |             | Stable     |
