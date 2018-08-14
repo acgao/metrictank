@@ -61,7 +61,11 @@ Here are the currently included functions:
 | removeAboveValue(seriesList, n) seriesList                     |             | Stable     |
 | removeBelowValue(seriesList, n) seriesList                     |             | Stable     |
 | scale(seriesList, num) series                                  |             | Stable     |
-| scaleToSeconds(seriesList, seconds) series                     |             | Stable     |
+| scaleToSeconds(seriesList, seconds) seriesList                 |             | Stable     |
+| sortBy(seriesList, func, reverse) seriesList                   |             | Stable     |
+| sortByMaxima(seriesList) seriesList                            |             | Stable     |
+| sortByName(seriesList, natural, reverse) seriesList            |             | Stable     |
+| sortByTotal(seriesList) seriesList                             |             | Stable     |
 | stddevSeries(seriesList) series                                |             | Stable     |
 | sumSeries(seriesLists) series                                  | sum         | Stable     |
 | summarize(seriesList) seriesList                               |             | Stable     |
